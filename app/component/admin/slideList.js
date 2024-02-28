@@ -1,4 +1,5 @@
 import axios from "axios";
+import Link from "next/link";
 
 export default async function SlideList(props) {
     const { result } = props;

@@ -1,4 +1,5 @@
 import axios from "axios";
+import Link from "next/link";
 
 const NoticeList = ({ result }) => {
     const handleDelete = async () => {
