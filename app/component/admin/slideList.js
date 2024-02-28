@@ -1,5 +1,4 @@
 import axios from "axios";
-import Link from "next/link";
 
 export default async function SlideList(props) {
     const { result } = props;
@@ -26,11 +25,9 @@ export default async function SlideList(props) {
                     <div className="admin-lead">{result.price}</div>
                 </div>
             </div>
-            <Link href="" passHref>
-                <a className="widget-link-more" onClick={handleDelete}>
-                    삭제
-                </a>
-            </Link>
+            <a className="widget-link-more" onClick={handleDelete}>
+                삭제
+            </a>
         </div>
     );
 }

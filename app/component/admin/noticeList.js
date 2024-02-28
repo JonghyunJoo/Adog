@@ -1,10 +1,9 @@
 import axios from "axios";
-import Link from "next/link";
 
 const NoticeList = ({ result }) => {
     const handleDelete = async () => {
         try {
-            await axios.delete(`/api/notice/delete?_id = ${result._id}`);
+            await axios.delete(`/api/notice/delete?_id=${result._id}`);
             console.log('게시물이 성공적으로 삭제되었습니다.');
         } catch (error) {
             console.log('삭제 중에 오류가 발생했습니다.', error);
@@ -14,7 +13,7 @@ const NoticeList = ({ result }) => {
     return (
         <div className="d-flex flex-nowrap relative admin-list-item flex-row">
             <div className="admin-image-wrapper">
-                <img src={result.thumb} height="184" width="352"></img>
+                <img src={result.thumb} height="184" width="352" alt="Thumbnail"></img>
             </div>
             <div className="admin-info-wrapper d-flex flex-row flex-wrap relative">
                 <div className="admin-title-wrapper">
@@ -26,14 +25,11 @@ const NoticeList = ({ result }) => {
                     </div>
                 </div>
             </div>
-            <Link href="" passHref>
-                <a className="widget-link-more" onClick={handleDelete}>
-                    삭제
-                </a>
-            </Link>
+            <a className="widget-link-more" onClick={handleDelete}>
+                삭제
+            </a>
         </div>
-
-    )
-}
+    );
+};
 
 export default NoticeList;
