@@ -1,6 +1,6 @@
 import { connectDB } from "@/util/database";
 import "../../../styles/admin.scss";
-import NoticeList from "@/app/component/admin/noticeList";
+import NoticeList from "../../component/admin/noticeList";
 import { NextPage } from "next";
 
 const List= async () => {

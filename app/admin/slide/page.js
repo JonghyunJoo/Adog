@@ -1,5 +1,5 @@
 import { connectDB } from "@/util/database"
-import SlideList from "@/app/component/admin/slidelist"
+import SlideList from "../../component/admin/slideList.js"
 import "../../../styles/admin.scss"
 
 export default async function List() {
