@@ -1,0 +1,15 @@
+.search-result {
+  height: 100vh;
+  .search-list-wrap {
+    height: 80vh;
+
+    .search-item-wrapper {
+      width: 25%;
+      margin-top: 20px;
+      
+      .search-item{
+        max-width:170px;
+      }
+    }
+  }
+}
