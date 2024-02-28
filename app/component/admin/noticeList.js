@@ -3,7 +3,7 @@ import axios from "axios";
 const NoticeList = ({ result }) => {
     const handleDelete = async () => {
         try {
-            await axios.delete(`/api/notice/delete?_id = ${result._id }`);
+            await axios.delete(`/api/notice/delete?_id = ${result._id}`);
             console.log('게시물이 성공적으로 삭제되었습니다.');
         } catch (error) {
             console.log('삭제 중에 오류가 발생했습니다.', error);
@@ -25,11 +25,11 @@ const NoticeList = ({ result }) => {
                     </div>
                 </div>
             </div>
-            <div className="admin-read-more d-flex flex-row">
-                <a className="widget-link-more" href="" onClick={handleDelete}>
+            <Link href="" passHref>
+                <a className="widget-link-more" onClick={handleDelete}>
                     삭제
                 </a>
-            </div>
+            </Link>
         </div>
 
     )

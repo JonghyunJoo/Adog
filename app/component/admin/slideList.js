@@ -25,11 +25,11 @@ export default async function SlideList(props) {
                     <div className="admin-lead">{result.price}</div>
                 </div>
             </div>
-            <div className="admin-read-more d-flex flex-row">
-                <a className="widget-link-more" href="" onClick={handleDelete}>
+            <Link href="" passHref>
+                <a className="widget-link-more" onClick={handleDelete}>
                     삭제
                 </a>
-            </div>
+            </Link>
         </div>
     );
 }
