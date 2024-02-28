@@ -1,15 +1,6 @@
 import axios from "axios";
 
-interface SlideListProps {
-    result: {
-        _id: string;
-        eachSlide: string;
-        title: string;
-        price: number;
-    };
-}
-
-export default async function SlideList(props: SlideListProps) {
+export default async function SlideList(props) {
     const { result } = props;
 
     const handleDelete = async () => {

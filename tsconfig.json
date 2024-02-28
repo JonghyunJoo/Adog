@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "middleware.js", "app/@modal/(...)detail/[dealID]/page.tsx", "app/admin/notice/page.tsx", "app/admin/slide/page.tsx", "app/page.js", "pages/api/auth/[...nextauth].js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "middleware.js", "app/@modal/(...)detail/[dealID]/page.tsx", "app/admin/notice/page.js", "app/admin/slide/page.tsx", "app/page.js", "pages/api/auth/[...nextauth].js"],
   "exclude": ["node_modules"]
 }

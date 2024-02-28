@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import PriceDropdown from './price';
 import ReviewDropdown from './review';

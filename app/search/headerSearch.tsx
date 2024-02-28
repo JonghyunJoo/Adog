@@ -7,7 +7,7 @@ import "../../styles/navbar.scss"
 
 interface HeaderSearchProps {
     clickSearch: () => void;
-    searchWidth: number;
+    searchWidth: string;
 }
 
 export default function HeaderSearch(props: HeaderSearchProps) {

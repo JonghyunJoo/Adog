@@ -3,19 +3,7 @@ import "../../../styles/admin.scss";
 import NoticeList from "@/app/component/admin/noticeList";
 import { NextPage } from "next";
 
-interface Notice {
-    _id: string;
-    title: string;
-    lead: string;
-    content: string;
-    thumb: string;
-}
-
-interface ListProps {
-    notices: Notice[];
-}
-
-const List: NextPage<ListProps> = async ({ notices }) => {
+const List= async () => {
     const db = (await connectDB).db("adog");
     let result = await db.collection("notice").find().toArray();
 

@@ -1,15 +1,6 @@
 import axios from "axios";
 
-interface NoticeListProps {
-    result: {
-        _id: string;
-        thumb: string;
-        title: string;
-        lead: string;
-    };
-}
-
-const NoticeList: React.FC<NoticeListProps> = ({ result }) => {
+const NoticeList = ({ result }) => {
     const handleDelete = async () => {
         try {
             await axios.delete(`/api/notice/delete?_id = ${result._id }`);
