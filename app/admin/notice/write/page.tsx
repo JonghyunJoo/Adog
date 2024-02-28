@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, ChangeEvent, FormEvent } from "react";
 import "../../../../styles/admin.scss";
 

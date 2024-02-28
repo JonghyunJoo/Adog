@@ -1,3 +1,5 @@
+'use client'
+
 import { signIn } from "next-auth/react";
 import { useRef, useState } from 'react';
 import "../../../styles/auth.css";
