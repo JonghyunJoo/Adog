@@ -16,7 +16,7 @@
 - 개발 스택: Next.js, React.js, TypeScript, MongoDB, AWS E3
 
 ## 게임 설명
-|<img width="1152" alt="Adog-main" src="https://github.com/JonghyunJoo/Adog/assets/128676068/43d4a0cd-8a55-490e-8f85-4a722edf1731">|![image](https://user-images.githubusercontent.com/66003567/216818272-8749569b-b217-4572-9738-32b0058459f4.png)|
+|<img width="800" alt="Adog-main" src="https://github.com/JonghyunJoo/Adog/assets/128676068/43d4a0cd-8a55-490e-8f85-4a722edf1731">|![image](https://user-images.githubusercontent.com/66003567/216818272-8749569b-b217-4572-9738-32b0058459f4.png)|
 |:---:|:---:|
 |메인 페이지|사용자 정보 화면|
 
