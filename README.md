@@ -16,7 +16,7 @@
 - 개발 스택: Next.js, React.js, TypeScript, MongoDB, AWS E3
 
 ## 서비스 설명
-|<img width="800" alt="Adog-main" src="https://github.com/JonghyunJoo/Adog/assets/128676068/43d4a0cd-8a55-490e-8f85-4a722edf1731">|<img width="800" alt="Adog-admin" src="https://github.com/JonghyunJoo/Adog/assets/128676068/466e15d5-9bd0-443f-abc0-8aeb5f2c9d07">|
+|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/192cc582-559e-4df0-932e-fd7c2de51050)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/0fc84814-62b3-4ae5-ba1b-e75f03657d3f)|
 |:---:|:---:|
 |메인 페이지|관리자 페이지|
 
@@ -27,19 +27,11 @@
 
 
 ## 서비스 기능
-- 캐릭터 이동 방법
-
-|이동방향|상(위)|좌(왼쪽)|하(아래)|우(오른쪽)|
-|---|---|---|---|---|
-|키보드| W | A | S | D |
-|방향키|⬆️|⬅️|⬇️|➡️|
-
-- 맵의 이동 가능 장소
-
-|Home|Forest|Store|Room|
+|Sign In|Forest|Store|Room|
 |---|---|---|---|
-|![image](https://user-images.githubusercontent.com/66003567/216816017-bfd18669-9f70-45c2-8561-bae648690602.png)|![image](https://user-images.githubusercontent.com/66003567/216815971-d8ed6ea8-1f92-45f8-9611-1cbe2b5e8db0.png)|![image](https://user-images.githubusercontent.com/66003567/216815991-88e0f4d6-3e5d-4c19-9eb9-97047b40c0d0.png)|![image](https://user-images.githubusercontent.com/66003567/216816002-4eca6510-4436-44f5-b949-347e75129ada.png)|
-|옥수수 농사 가능|슈팅, 두더지 잡기, 낚시 미니게임 입장 가능|물품 판매 및 구매 가능|게임 저장 가능|
+|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/50f4bb31-df11-4a32-9f76-2aa3f6d8ce77)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/a4923940-dcbd-44e8-8906-489f970bf3e7)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/34ab6024-f028-4886-916a-cb108fc2aa0a)|
+![image](https://github.com/JonghyunJoo/Adog/assets/128676068/4e2cb1d0-cbe8-4642-a86b-8033113afd9f)|
+|로그인 및 회원가입<br>OAuth를 통한 구글 소셜로그인|제목으로 검색|슬라이드 및 썸네일<br>AutoPlay 기능과 Navigation 기능|필터<br>이름 가격 평점 스토어를 기준으로 원하는 조건의 게임 필터링|
 
 - 미니게임
 
