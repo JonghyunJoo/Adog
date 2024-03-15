@@ -36,7 +36,7 @@
 |Filter|List|SideBar|Detail|
 |---|---|---|---|
 |![image](https://github.com/JonghyunJoo/Adog/assets/128676068/4e2cb1d0-cbe8-4642-a86b-8033113afd9f)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/f2c10553-2ded-4935-b26e-f5e84d04bc61)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/4bdb887d-7f30-4f83-aa90-92f4380e3873)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/ab0a0070-9d45-4921-99bf-be4ec30be99a)|
-|필터<br>이름 가격 평점 스토어를 기준으로 원하는 조건의 게임 필터링|게임 리스트<br>필터 정렬 기능에 따라 표시/무한스크롤 기능|사이드 바<br>리스트 중 마우스를 올린 게임에 대한 간단한 정보 출력|세부 정보 페이지<br>리스트 중 클릭한 게임에 대한 자세한 정보를 모달창 형태로 구현|
+|필터<br>제목,가격,평점,스토어를 기준으로 원하는 게임 필터링|게임 리스트<br>필터 정렬 기능에 따라 표시<br>무한스크롤 기능|사이드 바<br>리스트 중 마우스를 올린 게임에 대한 간단한 정보 출력|세부 정보 페이지<br>리스트 중 클릭한 게임에 대한 자세한 정보를 모달창 형태로 구현|
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
