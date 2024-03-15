@@ -32,7 +32,7 @@
 |![image](https://github.com/JonghyunJoo/Adog/assets/128676068/50f4bb31-df11-4a32-9f76-2aa3f6d8ce77)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/a4923940-dcbd-44e8-8906-489f970bf3e7)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/34ab6024-f028-4886-916a-cb108fc2aa0a)|
 |로그인 및 회원가입<br>OAuth를 통한 구글 소셜로그인|제목으로 검색|슬라이드 및 썸네일<br>AutoPlay 기능과 Navigation 기능|
 
-<h3>리스트</h3>
+
 |Filter|List|SideBar|Detail|
 |---|---|---|---|
 |![image](https://github.com/JonghyunJoo/Adog/assets/128676068/4e2cb1d0-cbe8-4642-a86b-8033113afd9f)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/f2c10553-2ded-4935-b26e-f5e84d04bc61)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/4bdb887d-7f30-4f83-aa90-92f4380e3873)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/ab0a0070-9d45-4921-99bf-be4ec30be99a)|
