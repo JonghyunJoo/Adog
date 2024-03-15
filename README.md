@@ -28,7 +28,7 @@
 
 ## 서비스 기능
 |Sign In|Search|Slide|
-|---|---|---|---|
+|---|---|---|
 |![image](https://github.com/JonghyunJoo/Adog/assets/128676068/50f4bb31-df11-4a32-9f76-2aa3f6d8ce77)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/a4923940-dcbd-44e8-8906-489f970bf3e7)|![image](https://github.com/JonghyunJoo/Adog/assets/128676068/34ab6024-f028-4886-916a-cb108fc2aa0a)|
 |로그인 및 회원가입<br>OAuth를 통한 구글 소셜로그인|제목으로 검색|슬라이드 및 썸네일<br>AutoPlay 기능과 Navigation 기능|
 
